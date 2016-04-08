@@ -35,6 +35,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script>
+         $(document).ready(function(){
         $('#slideshow').delay(4000).show(0);
 
         $("#slideshow > li:gt(0)").hide();
@@ -53,8 +54,9 @@
 
                 .appendTo('#slideshow');
             }, 8000);
-            
+
         }, 1000);
+            });
     </script>
 
 
