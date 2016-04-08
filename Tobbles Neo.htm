@@ -122,7 +122,6 @@
     <script>
         $(document).ready(function() {
             $('#slideshow').delay(3000).fadeIn(1000);
-            
 
             $("#slideshow > li:gt(0)").hide();
 
@@ -139,7 +138,7 @@
                         .end()
 
                     .appendTo('#slideshow');
-                }, 8000);
+                }, 6000);
 
             }, 1000);
         });
@@ -147,6 +146,39 @@
     <!-- END Bullet Scroll  -->
 
     <style type="text/css">
+        #slideshow {
+            display: none;
+            position: absolute;
+            
+            top: 300px;
+    left: 468px;
+            
+            width: 240px;
+            height: 60px;
+            border-radius: 10px;
+            
+            padding: 10px;
+            background-color: #385cae;
+            
+/*            text-align: center;*/
+        }
+        
+        #slideshow > li {
+            width: 220px;
+            position: absolute;
+            top: 12px;
+            left: 20px;
+            right: 10px;
+            bottom: 10px;
+            vertical-align: middle;
+            
+            color: #fff;
+            
+            font-weight:800;
+            
+            
+        }
+        
         .PIN_1460135551620_embed_grid {
             width: 100%;
             max-width: 257px;
@@ -1853,38 +1885,7 @@
         
        
         
-        #slideshow {
-            display: none;
-            position: absolute;
-            
-            top: 300px;
-    left: 468px;
-            
-            width: 240px;
-            height: 60px;
-            border-radius: 10px;
-            
-            padding: 10px;
-            background-color: #385cae;
-            
-/*            text-align: center;*/
-        }
         
-        #slideshow > li {
-            width: 220px;
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            right: 10px;
-            bottom: 10px;
-            vertical-align: middle;
-            
-            color: #fff;
-            
-            font-weight:800;
-            
-            
-        }
     </style>
 </head>
 
