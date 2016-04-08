@@ -1,0 +1,1315 @@
+
+.red_button_120 {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1668px;
+	width: 120px;
+	height: 33px;
+	border: none; 
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; /* <-- this is what you must define */
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+.red_button_120:hover {
+	color: #eca927; 
+    text-decoration: none;
+}
+
+.teal_checkout_button {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -942px -856px;
+	width: 290px;
+	height: 50px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; /* <-- this is what you must define */
+	vertical-align: middle;
+	cursor:pointer;
+	margin-bottom:40px;
+}
+.teal_checkout_button:hover {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -942px -968px;
+	width: 290px;
+	height: 50px;
+	color: #3C5DAB;   
+}
+
+.teal_button {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -507px -1611px;
+	width: 187px;
+	height: 32px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; /* <-- this is what you must define */
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+.teal_button:hover {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat no-repeat -507px -1571px;
+	width: 187px;
+	height: 32px;
+	color: #3C5DAB;   
+}
+
+.orange_button {
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -722px -1096px;
+	width: 187px;
+	height: 32px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; /* <-- this is what you must define */
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+.orange_button:hover {
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -721px -1143px;
+	width: 188px;
+	height: 33px;
+	color: #3C5DAB;   
+}
+
+
+.video_icon {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -215px -2031px;
+	width: 37px;
+	height: 28px;
+	padding:0; 
+	position:absolute; 
+	z-index:50;
+	margin-left: 27px;
+    margin-top: 217px;
+}
+
+.video_icon2 {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -215px -2031px;
+	width: 37px;
+	height: 28px;
+	padding:0; 
+	display: inline-block;
+}
+
+.rank {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -136px -1893px;
+	width: 79px;
+	height: 103px;
+	padding:0; 
+	position:absolute; 
+	z-index:10;
+	margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: white;   
+	line-height: 65px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.new {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -391px -1846px;
+	width: 92px;
+	height: 48px;
+	padding:0; 
+	position:absolute; 
+	z-index:9;
+	margin-left: 180px;
+    margin-top: 0px;
+}
+
+.best_seller {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -336px -1759px;
+	width: 147px;
+	height: 78px;
+	padding:0; 
+	position:absolute; 
+	z-index:9;
+	margin-left: 127px;
+    margin-top: 0px;
+}
+
+.more_styles {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -576px -1847px;
+	width: 116px;
+	height: 61px;
+	padding:0; 
+	position:absolute; 
+	z-index:9;
+	margin-left: 157px;
+    margin-top: 0px;
+}
+
+.listing_header {
+	position: relative;
+	background: url('/images/skin_2015/super_sprite-headers2.png') no-repeat 0 -450px;
+	width: 1095px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    color: white;   
+    text-decoration: none;
+	line-height: 50px; /* <-- this is what you must define */
+	vertical-align: middle;
+	
+}
+
+.listing_header_alt {
+	position: relative;
+	background: url('/images/skin_2015/super_sprite-headers2.png') no-repeat 0 -56px;
+	width: 1095px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    color: white;   
+    text-decoration: none;
+	line-height: 50px; /* <-- this is what you must define */
+	vertical-align: middle;
+	
+}
+
+.page_numbers {
+	position:absolute; 
+	z-index:10;
+	margin-left: 625px;
+    margin-top: -34px;
+}
+
+.num_bg {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -287px -1584px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	padding: 1px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: white;   
+    text-decoration: none;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.num_bg a {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: white;   
+    text-decoration: none;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.num_bg a:hover {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -287px -1611px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-decoration: underline;
+	padding: 0px;
+}
+
+.num_bg_current {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -287px -1718px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	padding: 1px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #595a5c;   
+    text-decoration: none;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.next_page_icon {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -464px -2036px;
+	width: 14px;
+	height: 21px;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.previous_page_icon {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -495px -2036px;
+	width: 14px;
+	height: 21px;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.next_page {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    color: white;   
+    text-decoration: none;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: top;
+	width: 55px;
+}
+
+.next_page a {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    color: white;   
+    text-decoration: none;
+	line-height: 19px; /* <-- this is what you must define */
+	vertical-align: top;
+	width: 55px;
+}
+
+.previous_page {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: white;   
+    text-decoration: none;
+	line-height: 25px; /* <-- this is what you must define */
+	vertical-align: top;
+	width: 75px;
+}
+
+.previous_page a {
+    margin-left: -5px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: white;   
+    text-decoration: none;
+	line-height: 19px; /* <-- this is what you must define */
+	vertical-align: top;
+	width: 75px;
+}
+
+.recently_viewed {
+	width: 100px;
+	height: 12px;
+	display: inline-block;
+	font: 12px 'Roboto', Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#767676;
+	background:#e6e6e6;
+	border:1px solid #bcbcbc;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:6px;
+	margin:0 auto;
+	text-align: center;
+	text-decoration: none;
+	z-index:30;
+}
+
+.sort_by {
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	font: 15px 'Roboto', Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#acca7e;
+	background:#8ebe45;
+	border:1px solid #acca7e;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:6px;
+	margin:0 auto;
+	text-align: center;
+	text-decoration: none;
+	z-index:30;
+}
+
+.sort_by a {
+	text-decoration: none;
+	color:#cfdcba;
+}
+
+.sort_by_div {
+	margin-top: -15px;
+	margin-left: 20px;
+	position: absolute;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:29;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	font: 16px 'Roboto', Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#666666;
+	background:#ffffff;
+	border:0px solid #ffffff;
+	padding:10px;
+	margin:0 auto;
+	text-decoration: none;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+	text-align:left;
+	width: 200px;
+}
+
+.sort_by_div a {
+	text-align:left;
+	text-decoration: none;
+	color:#666666;
+	line-height:25px;
+}
+
+.sort_by_div a:hover {
+	text-decoration: underline;
+	color:#fd8324;
+}
+
+.add_to_cart {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1705px;
+	width: 120px;
+	height: 33px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.add_to_cart a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: white;   
+    text-decoration: none;
+	height: 33px;
+	line-height: 33px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.add_to_cart a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fecc0d;   
+	height: 33px;
+	line-height: 33px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.more_info {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1631px;
+	width: 120px;
+	height: 34px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.more_info a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: white;   
+    text-decoration: none;
+	height: 34px;
+	line-height: 34px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.more_info a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fecc0d;   
+	height: 34px;
+	line-height: 34px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+H1
+{
+font-family: 'Fredoka One', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold;
+font-size: 24px; 
+line-height: 30px;
+color:#3A88C6;
+display:block;
+margin-bottom: 10px;
+}
+
+H2
+{
+font-family: 'Fredoka One', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold;
+font-size: 18px; 
+line-height: 20px;
+color:#3A88C6;
+margin-bottom: 8px;
+}
+
+BODY {	
+	font-size: 15px; 
+	color: #000000; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-position: top center; 
+} 
+
+.filter {	
+	font-size: 13px; 
+	color: #7ea3d6; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	line-height: 15px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.filter a {	
+	font-size: 13px; 
+	color: #7ea3d6; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	line-height: 15px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+.filter a:hover {	
+	font-size: 13px; 
+	color: #f58220; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+}
+
+.playHeader {	
+	font-size: 14px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.playHeader:active 
+{ 
+	font-size: 14px; 
+	color: #ffdd04; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+.playHeader:hover 
+{ 
+	font-size: 14px; 
+	color: #ffdd04; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+#cartText { 
+   position: relative; 
+   top: -49px; 
+   left: 28px; 
+   width: 0px; 
+   height: 0px;
+   font-size: 16px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+.prettysearch input { 
+	height: 16px;
+	width: 122px;
+	font-family: 'Roboto', Tahoma,Geneva,Arial,sans-serif;
+	color: #666666;
+	font-size: 11px;
+	border: 0px none;
+}
+
+.prettysearchV3 input {
+font: 16px 'Roboto', Arial, Helvetica, sans-serif;
+font-style:normal;
+color:#888888;
+background:#f2f2f2;
+border:0px solid #ffffff;
+text-shadow:0px 0px 0px #fff;
+border-radius:5px 0px 0px 5px;
+-moz-border-radius:5px 0px 0px 5px;
+-webkit-border-radius:5px 0px 0px 5px;
+width:300px;
+height: 30px;
+padding:2px 0px 2px 10px;
+cursor:pointer;
+margin:0 auto;
+}
+.prettysearchV3 input:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+.prettysearch_2015 input {
+font: 16px 'Roboto', Arial, Helvetica, sans-serif;
+font-style:normal;
+color:#888888;
+background:#ffffff;
+border:0px solid #ffffff;
+text-shadow:0px 0px 0px #fff;
+width:325px;
+padding:5px;
+cursor:pointer;
+margin:2px 0px 0px 10px;
+}
+.prettysearch_2015 input:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+.prettysearch_2015 input:focus{
+cursor:pointer;
+position:relative;
+border:0; 
+outline:none;
+box-shadow:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+}
+
+.cloudtag1 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 100; padding: 2px; line-height: 20px; text-align: center; vertical-align: middle; color: #999999;}
+.cloudtag2 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 200; padding: 2px; line-height: 22px; text-align: center; vertical-align: middle; color: #999999;}
+.cloudtag3 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 300; padding: 2px; line-height: 24px; text-align: center; vertical-align: middle; color: #999999;}
+.cloudtag4 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 400; padding: 2px; line-height: 26px; text-align: center; vertical-align: middle; color: #888888;}
+.cloudtag5 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500; padding: 2px; line-height: 28px; text-align: center; vertical-align: middle; color: #888888;}
+.cloudtag6 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 600; padding: 2px; line-height: 30px; text-align: center; vertical-align: middle; color: #777777;}
+.cloudtag7 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; padding: 2px; line-height: 30px; text-align: center; vertical-align: middle; color: #666666;}
+.cloudtag8 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 800; padding: 2px; line-height: 30px; text-align: center; vertical-align: middle; color: #555555;}
+.cloudtag9 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 48px; font-weight: 900; padding: 2px; line-height: 30px; text-align: center; vertical-align: middle; color: #444444;}
+.cloudtag10 { font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 56px; font-weight: 900; padding: 2px; line-height: 30px; text-align: center; vertical-align: middle; color: #333333;}
+
+A
+{ 
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+color:#3A88C6;
+text-decoration: underline;
+}
+
+A:active 
+{ 
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+color:#3A88C6;
+text-decoration: underline;
+}
+
+A:hover 
+{ 
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+color:#D7771A;
+text-decoration: underline;
+}
+
+/*This A override added below is to correct the subheader issues when trying to fix the firefox size 16 text in the margin*/
+A.newsubheader:link
+{
+	font-size: 16px;
+	color: #1484c0;
+	font-weight: 600;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+A.newsubheader:hover
+{
+	font-size: 16px;
+	color: #fd8324;
+	font-weight: 600;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+}
+
+.lblue 
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.lorange
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-size: 13px; 
+text-decoration : none;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.orange
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+font-weight: bold;
+color : #FFCC00;
+}
+
+.orangeund
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+font-weight: bold;
+color : #FFCC00;
+}
+
+.lblueund
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: underline;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.lpurplebold
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.lpurpleboldund
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: underline;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.lspring
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: bold;
+color : #3A88C6;
+}
+
+.standout
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold;
+text-decoration : none;
+color : #CC0000;
+}
+
+.standout2
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold;
+text-decoration : none;
+color : #CC0000;
+}
+
+.standoutbgnd
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold;
+text-decoration: none;
+color : #cc0033;
+background: #CC0000;
+}
+
+.header
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: bold;
+color : #000000;
+}
+
+.lmargin110
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: normal;
+color : #000000;
+margin-left : 110px;
+}
+
+.lmargin300
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: normal;
+color : #000000;
+margin-left : 300px;
+}
+
+.redbold
+{
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration: none;
+font-weight: bold;
+color : #CC0000;
+}
+
+.small {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+.bold {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+OL {	
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+LI {	
+	color: #000000; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+B {
+	color: #000000;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+TD {
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: normal;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+TH {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+SELECT {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+OPTION {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+INPUT {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+TEXTAREA {	
+	font-size: 13px; 
+	color: #000000; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.newheader {	
+	font-size: 20px; 
+	color: #3A88C6; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.largeheader {	
+	font-size: 24px; 
+	color: #3A88C6; 
+	font-weight: 800; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.largeheader:active {	
+	font-size: 24px; 
+	color: #3A88C6; 
+	font-weight: 800; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.largeheader:hover {	
+	font-size: 24px; 
+	color: #3A88C6; 
+	font-weight: 800; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.newsubheader {	
+	font-size: 13px; 
+	color: #3A88C6; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.strikethrough {
+	font-size: 12;
+	color: #CC0000;
+	font-weight: 300;
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: line-through;
+} 
+
+.rev_header {	
+	font-size: 11px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.rev_header2 {	
+	font-size: 10px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.rev_header2:hover 
+{ 
+font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+color:yellow;
+}
+
+.lnav_bold_no_u {	
+	font-size: 11px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.lnav_basic {	
+	font-size: 11px; 
+	color: white; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_basic:active {	
+	font-size: 11px; 
+	color: #FFCC00; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_basic:hover {	
+	font-size: 11px; 
+	color: #FFCC00; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_bold {	
+	font-size: 11px; 
+	color: white; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_bold:active {	
+	font-size: 11px; 
+	color: #FFCC00; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_bold:hover {	
+	font-size: 11px; 
+	color: #FFCC00; 
+	font-weight: 600; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: underline;
+} 
+
+.lnav_search {	
+	font-size: 11px; 
+	color: black; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.eleven {	
+	font-size: 11px; 
+	color: black; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+.medium {	
+	font-size: 11px; 
+	color: black; 
+	font-weight: 300; 
+	font-family: 'Roboto', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+} 
+
+SELECT .small {
+	font-size: 11px;
+}
+
+INPUT .small {
+	font-size: 11px;
+}
+.white, .white a:link, .white a:visited {color:#ffffff;text-decoration: none;}
+.white a:hover, .white a:active {color:#dde6db;text-decoration: underline;}
+
+.leftNavBox {width:250px;height: 300px;background-color: #000000; float:left;}
+
+.plus_button {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -242px -1814px;
+	width: 34px;
+	height: 34px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	cursor:pointer;
+}
+
+.plus_button:hover {
+	color: #fecc0d;   
+}
+
+#remove_menus{
+	position:fixed;
+	top:165px;
+	height:1px;
+	z-index:1000000;
+	width:100%;
+}
+
+.age_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 340px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-9px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.best_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 340px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-180px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.best_links_div span {
+	font-color:#000000;
+	padding:20;
+}
+
+
+
+.new_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 340px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-345px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.category_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 440px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-518px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.brand_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 700px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-669px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.interest_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 440px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-785px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.american_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 340px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-922px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.name_links_div {
+	position:absolute;
+	min-height:25px;
+	max-height: 340px;
+	width:1300px;
+	overflow: auto;
+	overflow-x: hidden;
+	display:none;
+	z-index:30;
+	margin-top:0px;
+	margin-left:-1111px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+	box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about_left{
+	margin-top: 20px;
+}
+
+/*-------------HM Styles------------------*/
+.reg_body{
+	min-height:376px;
+	max-height:876px;
+	padding:10px 10px 10px 10px;
+	background-color:#FFFFFF;
+	box-shadow: 3px 3px 5px #888888;
+}
+
+.add_header {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -616px -1399px;
+	width: 301px;
+	height: 69px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}
+.plus_item{
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -287px -1665px;
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	cursor:pointer;
+	padding-top:2px;
+	padding-left:2px;
+}
+.plus_item:hover{
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -287px -1692px;
+	width: 25px;
+	height: 24px;
+	color: #3E5EA9;
+}
+.remove_item{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -115px -1443px;
+	width: 26px;
+	height: 27px;
+	color: #fff;
+	cursor:pointer;
+	padding-top:2px;
+	padding-left:2px;
+	font-weight:bold;
+}
+.remove_item:hover{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -115px -1414px;
+	width: 26px;
+	height: 26px;
+}
+.remove_item_navy{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -56px -1414px;
+	width: 27px;
+	height: 26px;
+	color: #fff;
+	cursor:pointer;
+	padding-top:2px;
+	padding-left:2px;
+	font-weight:bold;
+}
+.remove_item_navy:hover{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -56px -1443px;
+	width: 27px;
+	height: 27px;
+}
+.rate{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -120px -1534px;
+	width: 19px;
+	height: 18px;
+	cursor:pointer;
+}
+.rate:hover{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -234px -1534px;
+	width: 19px;
+	height: 18px;
+}
+.update_lists_navy{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -59px -1561px;
+	width: 26px;
+	height: 25px;
+	cursor:pointer;
+}
+.update_lists_navy:hover{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -88px -1561px;
+	width: 25px;
+	height: 25px;
+}
+.items_add_button{
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1705px;
+	width: 120px;
+	height: 33px;
+	color: #fff;
+	cursor:pointer;
+	margin-top:7px;
+	font-weight:bold;
+}
+.items_add_button:hover{
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1742px;
+	width: 120px;
+	height: 33px;
+	color: #3E5EA9;
+}
+.b_txt{
+	padding-top:15px;
+	color:#3C5DAB;
+}
+
+.retailStoreLinks {
+    text-decoration: none;
+}
+
+.retailStoreCopy {
+    color: #000000;
+}
+
+.retailStoreLinks:hover {
+    color: #000000;
+}
+
+/*-------------Done w/ HM Styles------------------*/

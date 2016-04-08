@@ -1,131 +1,30 @@
-p {
-	margin: 0;
+#slideshow { 
+    display:none;
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 200px; 
+    padding: 10px; 
+    
+    background-color: #385cae;
+    
+    color: #fff;
+    text-align: center;
+    
+    
 }
 
-li {
-    display: block;
-    position: absolute;
-}
-
-.anime-parent {
-	font-size: 28px;
-	font-weight: 600;
-	text-align: center;
-	margin-top: 7px;
-	text-shadow: 0px 0px 2px #bbb;
-}
-
-.anime-child-1 {
-	-webkit-animation: 	txt-animation1 3s infinite ease-in-out;
-	-moz-animation: 	txt-animation1 3s infinite ease-in-out;
-	-o-animation: 		txt-animation1 3s infinite ease-in-out;
-	-ms-animation: 		txt-animation1 3s infinite ease-in-out;
-	animation: 			txt-animation1 3s infinite ease-in-out;
-}
-
-.anime-child-2 {
-	-webkit-animation: 	txt-animation2 3s infinite ease-in-out;
-	-moz-animation: 	txt-animation2 3s infinite ease-in-out;
-	-o-animation: 		txt-animation2 3s infinite ease-in-out;
-	-ms-animation: 		txt-animation2 3s infinite ease-in-out;
-	animation: 			txt-animation2 3s infinite ease-in-out;
-}
-
-.anime-child-3 {
-	-webkit-animation: 	btn-animation 3s infinite ease-in-out;
-	-moz-animation: 	btn-animation 3s infinite ease-in-out;
-	-o-animation: 		btn-animation 3s infinite ease-in-out;
-	-ms-animation: 		btn-animation 3s infinite ease-in-out;
-	animation: 			btn-animation 3s infinite ease-in-out;
-}
-
-/* WebKit Animations */
-
-@-webkit-keyframes txt-animation1 {
-	0%, 20% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-webkit-keyframes txt-animation2 {
-	0%, 40% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-
-@-webkit-keyframes btn-animation {
-	0%, 60%   {opacity: 0;}	
-	80%, 100% {opacity: 1;}
-}
-
-/* FireFox Animations */
-
-@-moz-keyframes txt-animation1 {
-	0%, 20% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-moz-keyframes txt-animation2 {
-	0%, 40% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-moz-keyframes btn-animation {
-	0%, 60%   {opacity: 0;}	
-	80%, 100% {opacity: 1;}
-}
-
-/* Opera Animations */
-
-@-o-keyframes txt-animation1 {
-	0%, 20% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-o-keyframes txt-animation2 {
-	0%, 40% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-o-keyframes btn-animation {
-	0%, 60%   {opacity: 0;}	
-	80%, 100% {opacity: 1;}
-}
-
-/* IE Animations */
-
-@-ms-keyframes txt-animation1 {
-	0%, 20% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-ms-keyframes txt-animation2 {
-	0%, 40% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@-ms-keyframes btn-animation {
-	0%, 60%   {opacity: 0;}	
-	80%, 100% {opacity: 1;}
-}
-
-/* Animations */
-
-@keyframes txt-animation1 {
-	0%, 20% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
-}
-
-@keyframes txt-animation2 {
-	0%, 40% {opacity: 0;}
-	60%  {opacity: 0.8;}
-	100% {opacity: 1;}
+#slideshow > li { 
+    position: absolute; 
+    
+    display: inline-block;
+    
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    
+    vertical-align: middle;
+    
+    list-style: none;
 }

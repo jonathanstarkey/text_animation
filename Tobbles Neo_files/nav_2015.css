@@ -1,0 +1,871 @@
+div#background {
+    position: absolute;
+    width: 100%;
+    /* top: 34px; */
+}
+
+div#top-color {    
+    height: 55px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(230,231,232,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e7e8', GradientType=0 )
+}
+
+div#main-color-left {
+    position: absolute;
+    z-index: -0; 
+    height: 47px;
+    width: 100%;
+    top: 50px;
+    background-color: #85b441;
+}
+
+span#main-color-right {
+    display: inline-block;
+    height: 47px;
+    width: 50%;
+    top: 50px;
+    background-color: #ff8300;
+}
+
+div#search-color {
+    position: absolute;
+    z-index: -0;
+    width: 100%;
+    height: 68px;
+    background-color: #0083c2;
+    top: 97px;
+}
+
+div#category-color {
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    height: 47px; 
+    background-color: #424143;
+}
+
+header {
+    position: relative;
+    margin: 0 auto;
+    height: 260px;
+}
+
+nav {
+    position: relative;
+    Width: 1280px;
+    margin: 0 auto;
+}
+
+/*-------FBT LOGO NAV-------*/
+a#fbt-logo-nav {
+    position: absolute;
+    z-index: 110;
+    top: 6px;
+    background: url(/images/skin_2015/logo.png);
+    width: 277px;
+    height: 171px;
+}
+/*-------END FBT LOGO NAV-------*/
+
+/*-------TOP ROW -------*/
+div#top-row {
+    height: 55px;
+    margin: 0 auto;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(230,231,232,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(230,231,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e7e8', GradientType=0 );
+}
+
+/*-------TOP ROW INFO -------*/
+#top-row-info {
+    padding-top: 13px;
+    padding-left: 500px;
+    color: #6d6e71;
+}
+
+span#toy-experts {
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+
+span#live-chat-icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    background: url(/images/skin_2015/livechat.gif) no-repeat center;
+    width: 18px;
+    height: 16px;
+}
+
+span#live-chat-link a {
+    display: inline-block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6d6e71;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+span#live-chat-link a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+}
+
+.info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6d6e71;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-row-anchor {
+    margin-left: 28px;
+}
+
+.top-row-email {
+    margin-left: 1px;
+}
+
+ a.top-row-anchor:hover {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+a.top-row-email:hover {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.number {
+    position: absolute;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6d6e71;
+}
+
+span#header-divider {
+    border-right:1px solid #0083c2; 
+    height:20px;
+    margin-right: 13px;
+    margin-left: 11px;
+}
+/*-------TOP ROW INFO END -------*/
+
+/*-------TOP ROW CART TAB -------*/
+div#cart-tab { 
+    position: absolute;
+    display: inline-block;
+    margin-left: 1129px;
+    border-bottom: 48px solid #0083c2;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 118px;
+    line-height: 48px;
+    bottom: 0;
+}
+
+div#cart-png {
+    padding-left: 15px;
+    margin-top: 9px;
+    display: inline-block;
+    background: url(/images/skin_2015/cart.png) no-repeat center;
+    width: 40px;
+    height: 28px;
+}
+
+span#myCartText{
+    position: absolute;
+    margin-left: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 44px;
+    color: white;
+    text-decoration: none;
+}
+
+span#myCartText:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+/*-------TOP ROW CART TAB END -------*/
+
+/*-------TOP ROW GENERAL END -------*/
+
+/*-------MAIN NAV GENERAL-------*/
+ul#main-nav {
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    padding:0;
+    height: 47px;
+}
+
+#main-nav li{
+    display: inline-block;
+}
+
+#main-nav a {
+    display: inline-block;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    
+    color: #ffffff;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#main-nav a#spacer-right {
+    z-index: 60;
+    background-color: #ff8300;
+    width: 335px;
+    height: 59px;
+    top: 0px;
+}
+
+#main-nav a#main-1 {
+    z-index: 60;
+    background: url(/images/skin_2015/1.png) no-repeat center;
+    width: 147px;
+    height: 90px;
+    left: 315px;
+    top: -1px;
+    
+    line-height: 50px;
+}
+
+#main-nav a#main-2 {
+    z-index: 55;
+    background: url(/images/skin_2015/2.png) no-repeat center;
+    width: 165px;
+    height: 95px;
+    left: 452px;
+    top: -6px;
+    
+    text-indent: -9999px;
+}
+
+#main-nav a#main-3 {
+    z-index: 50;
+    background: url(/images/skin_2015/3.png) no-repeat center;
+    width: 165px;
+    height: 93px;
+    left: 606px;
+    top: -4px;
+    
+    line-height: 55px;
+}
+
+#main-nav a#main-4 {
+    z-index: 45;
+    background: url(/images/skin_2015/4.png) no-repeat center;
+    width: 184px;
+    height: 87px;
+    left: 761px;
+    top: 2px;
+    
+    line-height: 44px;
+    
+    text-indent: -5px;
+}
+
+#main-nav a#main-5 {
+    z-index: 40;
+    background: url(/images/skin_2015/5.png) no-repeat center;
+    width: 188px;
+    height: 93px;
+    left: 925px;
+    top: -4px;
+    
+    line-height: 55px;
+    
+    text-indent: -4px;
+}
+
+#main-nav a#main-6 {
+    z-index: 35;
+    background: url(/images/skin_2015/6.png) no-repeat center;
+    width: 188px;
+    height: 90px;
+    left: 1089px;
+    top: -1px;
+    
+    line-height: 49px;
+}
+
+#main-nav a#main-1:hover,
+#main-nav a#main-4:hover,
+#main-nav a#main-5:hover {
+    top: -10px;
+}
+
+#main-nav a#main-3:hover,
+#main-nav a#main-6:hover {
+    top: -14px;
+}
+
+#main-nav a#main-2:hover {
+    top: -18px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+    color: #ffffff;
+    line-height: 103px;
+    
+    text-indent: 0px;
+    text-align: center;
+    text-decoration: none;   
+}
+
+
+#main-nav a#spacer-left {
+    z-index: 30;
+    background-color: #85b441;
+    width: 10px;
+    height: 59px;
+    left: 1270px;
+    top: 0px;
+}
+
+/*-------END MAIN NAV GENERAL-------*/
+
+/*-------SEARCH ROW -------*/
+
+div#search-row {
+    position: absolute;
+    z-index: 60;
+    width: 1280px;
+    height: 68px;
+    background-color: #0083c2;
+    top: 97px;
+}
+
+/*------- SEARCH FIELD AREA -------*/
+
+span#search-fun {
+    position: relative;
+    top: 38%;    
+    margin-left: 288px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+div#search-field {
+    position: absolute; 
+    z-index: 110;
+    margin-left: 427px;
+    width: 362px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 6px;
+    background-color: white;
+}
+
+div#search-button {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -277px -2030px;
+	width: 45px;
+	height: 36px;
+    position: absolute; 
+    margin-left: 318px;
+    margin-top: -32px;
+}
+/*------- END SEARCH FIELD AREA -------*/
+
+/*-------GIFT BOT TAB -------*/
+a#gift-bot {
+    position: absolute;
+    margin-left: 445px;
+    padding-left: 23px;
+    border-bottom: 47px solid #ff8300;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 137px;
+    bottom: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 48px
+}
+
+a#gift-bot:hover {
+    color: #e6e7e8;
+}
+
+a#gift-bot span {
+    position: absolute;
+    background: url(/images/skin_2015/robot_1.png) no-repeat center;
+    width: 100px;
+    height: 80px;
+    margin-left: -5px;
+    margin-top: -21px;
+}
+
+a#gift-bot:hover span{
+    position: absolute;
+    background: url(/images/skin_2015/robot_2.png) no-repeat center;
+    width: 100px;
+    height: 80px;
+    margin-left: -5px;
+    margin-top: -21px;
+}
+/*-------END GIFT BOT TAB -------*/
+
+/*-------INVENTED HERE TAB -------*/
+a#invented-here {
+    position: absolute;
+    margin-left: 643px;
+    padding-left: 20px;
+    border-bottom: 47px solid #ff8300;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	height: 0;
+	width: 177px;
+    bottom: 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 48px;
+}
+
+a#invented-here:hover {
+    color: #e6e7e8;
+}
+
+a#invented-here span {
+    position: absolute;
+    background: url(/images/skin_2015/pin_1.png) no-repeat center;
+    width: 52px;
+    height: 73px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+a#invented-here:hover span{
+    position: absolute;
+    background: url(/images/skin_2015/pin_2.png) no-repeat center;
+    width: 52px;
+    height: 73px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+/*-------END INVENTED HERE TAB -------*/
+
+/*------- CATEGORY NAV -------*/
+ul.category-nav {
+    position: absolute;
+    margin: 0 auto;
+    top: 165px;
+    z-index: 55;
+    padding-left: 0px;
+    width: 1280px;
+    height: 47px; 
+    background-color: #424143;
+}
+
+ul.category-nav li{
+    display: inline-block;
+    height: 47px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;   
+}
+
+.category_link {
+    display: block;
+    height: 47px;
+    padding: 0 21px;
+    text-decoration: none;
+    color: #d1d2d3;
+}
+
+ul.category-nav span td {
+    display: block;
+    height: 20px;
+    padding: 5px;
+    margin: 2px;
+    border:0px solid #000000; 
+    width:200px;
+}
+
+ul.category-nav span a {
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+    color: #666666;
+    text-align: left;
+    text-transform: none;
+}
+
+a#category-1 {
+    margin-left: 14px;
+}
+
+a#category-8 {
+    margin-right: 14px;
+}
+
+.category_link:hover {
+    color: #424143;
+    text-decoration: none;
+}
+
+ul.category-nav li:hover {
+    background-color: white;
+}
+/*-------END CATEGORY NAV -------*/
+
+/*-------BEGIN SUB NAV -------*/
+.full_nav {
+    display: block;
+    width:95%;
+    margin-top:10px;
+    margin: auto;
+    height:100px;
+    line-height: 100px; 
+	vertical-align: middle;
+}
+
+.full_nav img {
+    line-height: 100px; 
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+    line-height: 100px; 
+	vertical-align: middle;
+}
+
+.sub_nav_section {
+    display: inline-block;   
+    vertical-align: top;
+}
+
+div.sub_nav {
+    z-index: 110;
+}
+
+div.sub_nav label{
+    display: block;
+    width: 200px;
+    height: 1.5em;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-transform: none;
+    color: #000;
+}
+
+div.sub_nav ul{
+    margin-bottom: 30px;
+    line-height: 1em;
+}
+
+.sub_nav_section_row_2 ul {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: -70px;
+}
+
+.sub_nav_section_row_3 ul {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: -70px;
+}
+
+.sub_nav_section_row_4 ul {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: -70px;
+}
+
+.sub_nav_section_row_5 ul {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: -70px;
+}
+
+div.sub_nav ul li{
+    display: block;
+    height: 1.5em;
+    margin-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25em; 
+}
+
+.subnav_links {
+    display: block;
+    height: 47px;
+    padding: 0px;
+    text-decoration: none;
+    color: #d1d2d3;
+}
+
+.sub_nav a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+
+.sub_nav_text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.sub_nav_simple {
+    z-index: 110;
+    padding:30px;
+}
+
+section.sub_nav_text label {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: none;
+    color: #000;
+}
+
+section.sub_nav_text label a {
+	display: inline-block;
+}
+
+section.sub_nav_text label a:hover {
+	font-color: #fd8324;
+	text-decoration: underline;
+}
+/*------- END SUB NAV -------*/
+
+div#info-bar {
+	position: absolute;
+    top: 228px;
+    width: 1000px;
+    vertical-align: middle;
+}
+
+/*-------RECENTLY VIEWED NAV -------*/
+div#recently-viewed-nav {
+	float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    height: 12px;
+}
+div#recently-viewed-nav a {
+    text-decoration: none;
+}
+/*-------END RECENTLY VIEWED NAV -------*/
+
+/*-------BREADCRUMB NAV -------*/
+div#bread-crumb-nav {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    vertical-align: middle;
+    height: 12px;
+    width: 800px;
+}
+/*-------END BREADCRUMB NAV -------*/
+
+/*-------$3.99 NAV -------*/
+a#flat-rate-nav {
+    position: absolute;
+    top: 212px;
+    z-index: 50;
+    margin-left: 826px;
+    border-top: 47px solid #ff4338;
+	border-left: 16px solid transparent;
+	height: 0;
+    width: 438px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 31px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+a#flat-rate-nav span {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 13px;
+}
+
+a#flat-rate-nav:hover {
+    color: #e6e7e8;
+}
+
+/*-------END $3.99 NAV -------*/
+.home_icon {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -536px -2040px;
+	width: 16px;
+	height: 13px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.filter_headings {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -507px -1571px;
+	width: 188px;
+	height: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; 
+	vertical-align: middle;
+}
+
+.filter_top_heading {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -507px -1611px;
+	width: 187px;
+	height: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; 
+	vertical-align: middle;
+}
+
+.close_icon {
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -584px -2040px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.view_larger {
+	position:relative;
+	top:200px;
+	left:0px;
+	background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1631px;
+	width: 120px;
+	height: 34px;
+}
+
+.view_larger a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	height: 34px;
+	line-height: 34px; 
+	vertical-align: middle;
+}
+
+.view_larger a:hover {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	color: #fecc0d;   
+	height: 34px;
+	line-height: 34px; 
+	vertical-align: middle;
+}
+
+/*--------------- HM styles -------------------*/
+.topheader_l{
+	font-weight:bold;
+	height:24px;
+	color:#FFFFFF;
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -418px -917px;
+	width: 286px;
+	height: 47px;
+}
+.topheader{
+	font-weight:bold;
+	height:24px;
+	padding-top:23px;
+	padding-left:20px;
+	color:#FFFFFF;
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat 0 -636px;
+	width: 583px;
+	height: 69px;
+	text-align:left;
+}
+.topheader_txt{
+	margin-top:24px;
+	margin-left:20px;
+	font-size:22px;
+}
+.topheader_l_txt{
+	position: absolute;
+	margin-top:11px;
+	margin-left:20px;
+}
+.topheader_short{
+	background: url('/images/skin_2015/spritesheet_2.png') no-repeat -5px -913px;
+	width: 394px;
+	height: 47px;
+	font-size:22px;
+	color:#FFFFFF;
+}
+.topheader_short_txt{
+	position: absolute;
+	margin-top:11px;
+	margin-left:20px;
+}
+
+/*-------------- Done HM Styles--------------------*/

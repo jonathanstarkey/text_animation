@@ -1,0 +1,558 @@
+/*-------- BEGIN TOP RATED STORE --------*/
+
+section.top_rated {
+    position: relative;
+    display: block;
+    
+    width: 1280px;
+    height: 55px;
+    
+    margin: 0 auto;
+    
+    bottom: 226px;  
+}
+
+span.top_rated_copy {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    
+     color: #0083c1;
+    
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+/*-------- END TOP RATED STORE --------*/
+
+/*-------- BEGIN FOOTER BACKGROUND --------*/
+
+div#footer-background {
+    position: absolute;
+    width: 100%;
+    
+    left:0;
+}
+
+div#footer-background_color {    
+    height: 500px;
+        
+    background-color: #ffcb0a;
+}
+
+/*-------- BEGIN FOOTER BACKGROUND --------*/
+
+/*-------- BEGIN FOOTER --------*/
+
+footer {
+    position: relative ;
+    margin: 0 auto;
+    
+    right: 0;
+    bottom: 0;
+    left: 0;    
+    background-color: #ffcb0a;
+}
+
+/*-------- FOOTER TABS --------*/
+
+.tabs {
+    position: absolute;
+    bottom: 485px;
+    right: 0;
+    left: 0;
+    
+    width: 1280px; 
+    height: 125px;
+    margin: 0 auto;
+}
+
+.tab {
+    display: inline-block;
+}
+
+.tab label {
+    position: relative;
+    
+    padding: 10px 20px; 
+    margin-left: 20px; 
+          
+    cursor: pointer;
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #e6e7e8;
+}
+
+label.tab-1 {
+    position: absolute;
+    
+    padding-bottom: 60px;
+    
+    top: -50px;
+    left: 67px;
+    
+    background: #7da4dd;
+    
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+.tab-1 span {
+    display: inline-block;
+    
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+}
+
+label.tab-2 {
+    position: absolute;
+    
+    padding-bottom: 40px;
+    
+    top: -28px;
+    left: 241px;
+    
+    background: #3b5cad;
+    
+    -webkit-transform: skewY(1deg);
+    -moz-transform: skewY(1deg);
+    -ms-transform: skewY(1deg);
+    -o-transform: skewY(1deg);
+    transform: skewY(1deg);
+}
+
+.tab-2 span {
+    display: inline-block;
+    
+    -webkit-transform: skewY(-1deg);
+    -moz-transform: skewY(-1deg);
+    -ms-transform: skewY(-1deg);
+    -o-transform: skewY(-1deg);
+    transform: skewY(-1deg);
+}
+
+label.tab-3 {
+    position: absolute;
+    
+    padding-bottom: 50px;
+    
+    top: -40px;
+    left: 511px;
+    
+    background: #ff4338;
+    
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+} 
+
+.tab-3 span {
+    display: inline-block;
+    
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+label.tab-4 {
+    position: absolute;
+    
+    padding-bottom: 40px;
+    
+    top: -28px;
+    left: 681px;
+    
+    background: #ff8300;
+    
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+.tab-4 span {
+    display: inline-block;
+    
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+}
+
+label.tab-5 {
+    position: absolute;
+    background: #85b443;
+    
+    padding-bottom: 40px;
+    
+    top: -35px;
+    
+    left: 846px;
+    
+    -webkit-transform: skewY(1deg);
+    -moz-transform: skewY(1deg);
+    -ms-transform: skewY(1deg);
+    -o-transform: skewY(1deg);
+    transform: skewY(1deg);
+} 
+
+.tab-5 span {
+    display: inline-block;
+    
+    -webkit-transform: skewY(-1deg);
+    -moz-transform: skewY(-1deg);
+    -ms-transform: skewY(-1deg);
+    -o-transform: skewY(-1deg);
+    transform: skewY(-1deg);
+}
+
+.tab [type=radio] {
+    display: none;   
+}
+
+.content {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 26px 100px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    
+    text-align: left;
+    line-height: 1.375em;
+    
+    color: white;  
+}
+
+div.content div {
+    display: inline-block;
+}
+
+div.content p {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+    width: 900px;
+}
+
+[type=radio]:checked ~ label {
+    z-index: 1;
+    
+    color: white;
+}
+
+[type=radio]:checked ~ label ~ .content-1 {
+    z-index: 1;
+    background: #7da4dd; 
+}
+
+[type=radio]:checked ~ label ~ .content-2 {
+    z-index: 1;
+    background: #3b5cad; 
+}
+
+[type=radio]:checked ~ label ~ .content-3 {
+    z-index: 1;
+    background: #ff4338; 
+}
+
+[type=radio]:checked ~ label ~ .content-4 {
+    z-index: 1;
+    background: #ff8300; 
+}
+
+[type=radio]:checked ~ label ~ .content-5 {
+    z-index: 1;
+    background: #85b443; 
+}
+
+/*-------- FOOTER TABS END --------*/
+
+/*-------- FOOTER TABS CLICK HERE BUTTON BEGIN --------*/
+
+div.footerButtonParent {
+    margin-top: 20px;
+}
+
+a.footerButton {
+    margin-top: -30px;
+	width: 120px;
+	height: 33px;
+	border: none; 
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: white;   
+	text-decoration: none;
+	line-height: 32px; /* <-- this is what you must define */
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+a.footerButtonYellow {
+    background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1741px;
+}
+
+a.footerButtonOrange {
+    background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1705px;
+}
+
+a.footerButtonGreen {
+    background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1817px;
+}
+
+a.footerButtonBlue {
+    background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1594px;
+}
+
+a.footerButtonRed {
+    background: url('/images/skin_2015/super_sprite.png') no-repeat -110px -1668px;
+}
+
+a.footerButton:hover {
+	color: #e6e7e8; 
+    
+    text-decoration: none;
+}
+
+/*-------- FOOTER TABS CLICK HERE BUTTON END --------*/
+
+/*-------- FOOTER INFO BEGIN --------*/
+
+.bottom-footer {    
+    width: 1280px;
+    margin: 0 auto;
+    
+    height: 485px;
+    
+    text-align: left;
+    
+    background-color: #ffcb0a;  
+}
+
+section.footer-info {
+    display: inline-block;
+    margin: 40px 20px 55px 20px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    
+    text-align: left;
+    line-height: 2em; 
+}
+
+section.footer-info-section_2 {
+    margin-left: 40px;
+    
+    vertical-align: top;
+}
+
+section.footer-info a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+section.footer-info a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-address {
+    display: inline-block;
+    vertical-align: top;
+    
+    margin-top: 43px;
+    margin-left: 80px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    
+    text-align: left;
+    line-height: 1.625em;
+}
+
+section.footer-address_2 {
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+section.footer-address-info{
+    display: block;
+    margin: 0;
+    
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+section.footer-address a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-address-info span {
+    display: block;
+}
+
+.address-name {
+    font-weight: bold;
+}
+
+span.address-name:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.omaha-store {
+    margin-top: 30px;
+}
+
+/*-------- FOOTER INFO END --------*/
+
+/*-------- FOOTER LOGOS BEGIN --------*/
+
+section.footer-right_icons {
+    display: inline-block;
+    margin-top: 45px;
+    vertical-align: top;
+    margin-left: 12px;
+    
+    text-align: center;
+}
+
+div#mcafee {
+    display:block;
+    padding-top: 8px;
+    margin: 0 auto;
+    
+    background: url(/images/skin_2015/mcafee.png) no-repeat center;
+    width: 103px;
+    height: 37px;
+}
+
+div#bbb {
+    display:block;
+    padding-top: 10px;
+    margin: 0 auto;
+    
+    background: url(/images/skin_2015/bbb.png) no-repeat center;
+    width: 103px;
+    height: 42px;
+}
+
+a.social_media {
+    display:inline-block;
+    margin: 20px 4px;
+    background-size: 34px;
+    background: url(/images/skin_2015/social_media.png) no-repeat;
+
+    width: 34px;
+    height: 34px;
+}
+
+a.facebook{
+    background-position: 0px center;
+}
+
+a.twitter{
+     background-position: -49px center;
+}
+
+a.youtube2{
+    background-position: -98px center;
+}
+
+a.pinterest{
+    background-position: -147px center;
+}
+
+div#smarter-logo {
+    margin: 0 auto;
+    
+    background: url(/images/skin_2015/swtp.png) no-repeat center;
+    width: 640px;
+    height: 119px;  
+}
+
+/*-------- FOOTER LOGOS END --------*/
+
+
+/*-------- COPYRIGHT BEGIN --------*/
+
+div#copyright{
+    display: inline-block;
+    margin: 0 auto;
+    
+    width: 1280px;
+    }
+
+span#copyright-copy {
+    display: block;
+    padding-top: 30px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    
+     color: rgba(0, 0, 0, 0.6);
+    
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+/*-------- COPYRIGHT END --------*/
+
+/*-------- BOTTOM FOOTER END --------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
